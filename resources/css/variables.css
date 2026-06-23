@@ -1,0 +1,21 @@
+:root{
+    --primary: rgb(136, 224, 106);
+    --disabled: rgb(72, 115, 58);
+    --secondary: rgb(72, 162, 42);
+    --hover: rgb(100, 198, 68);
+    --light: rgb(185, 246, 164);
+    --lighter: rgb(205, 246, 191);
+    --faded: gray;
+
+    --lv-easy: rgba(0, 209, 73, 1);
+    --lv-medium: rgba(209, 164, 0, 1);
+    --lv-hard: rgba(209, 49, 0, 1);
+    --lv-gray: rgb(59, 59, 59);
+
+    --btn-outlined: rgb(230, 192, 96);
+
+    --text-primary: #000;
+    --text-secondary: #777;
+
+    --cardtape-bg: #424242;
+}
