@@ -4,3 +4,6 @@ vendor
 env.example
 bootstrap
 storage/framework
+storage/logs
+public/build
+public/hot
