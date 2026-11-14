@@ -60,3 +60,7 @@ input[type='text']{
     font-weight: 800;
 }
 
+.btn-disabled{
+    background-color: rgb(36, 51, 31);
+}
+

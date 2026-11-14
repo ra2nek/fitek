@@ -2,6 +2,7 @@
 import { Head, Link, usePage } from '@inertiajs/vue3';
 import ApplicationLogo from '../Components/ApplicationLogo.vue'
 import PrimaryButton from '@/Components/PrimaryButton.vue';
+import SecondaryButton from '@/Components/SecondaryButton.vue';
 
 import { reroute } from '@/tools';
 
@@ -56,7 +57,7 @@ if(props.canLogin && pageProps.auth?.user) reroute("dashboard");
 
             <div v-if="!$page.props.auth.user">
                 <PrimaryButton class="btn" @click="reroute('login')"> Zaloguj się </PrimaryButton>
-                <PrimaryButton class="btn" @click="reroute('register')"> Zarejestruj się </PrimaryButton>
+                <SecondaryButton class="btn"> Zarejestruj się </SecondaryButton>
             </div>
 
             <div v-else>
